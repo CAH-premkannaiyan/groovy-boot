@@ -1,0 +1,19 @@
+{
+  "generator-jhipster": {
+    "baseName": "healthsense",
+    "packageName": "com.cardinal.fuse.healthsense",
+    "packageFolder": "com/cardinal/fuse/healthsense",
+    "authenticationType": "xauth",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "hazelcast",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "useCompass": false,
+    "buildTool": "gradle",
+    "frontendBuilder": "grunt",
+    "javaVersion": "8",
+    "rememberMeKey": "bf9688efedf1c615daa6ad0b29748cc5065ebefd"
+  }
+}
