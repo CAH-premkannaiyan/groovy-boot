@@ -1,2 +1,2 @@
-README for healthsense
-==========================
+README for sample groovy w/ spring boot
+=======================================
