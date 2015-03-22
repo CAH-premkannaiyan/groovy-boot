@@ -27,7 +27,7 @@
     </appender>
 -->
 
-    <logger name="com.cardinal.fuse.healthsense" level="${logback.loglevel}"/>
+    <logger name="com.groovy.sample.test" level="${logback.loglevel}"/>
 
     <logger name="javax.activation" level="WARN"/>
     <logger name="javax.mail" level="WARN"/>

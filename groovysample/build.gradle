@@ -17,9 +17,9 @@ apply plugin: 'maven'
 apply plugin: 'spring-boot'
 apply plugin: 'war'
 
-bootRepackage { mainClass = 'com.cardinal.fuse.healthsense.Application' }
+bootRepackage { mainClass = 'com.groovy.sample.test.Application' }
 
-springBoot { mainClass = 'com.cardinal.fuse.healthsense.Application' }
+springBoot { mainClass = 'com.groovy.sample.test.Application' }
 
 apply from: 'yeoman.gradle'
 
@@ -42,7 +42,7 @@ if (profile == 'prod') {
 	apply from: 'profile_dev.gradle'
 }
 
-group = 'com.cardinal.fuse.healthsense'
+group = 'com.groovy.sample.test'
 version = '0.1-SNAPSHOT'
 
 description = ''

@@ -1,7 +1,7 @@
 {
   "generator-jhipster": {
     "baseName": "healthsense",
-    "packageName": "com.cardinal.fuse.healthsense",
+    "packageName": "com.groovy.sample.test",
     "packageFolder": "com/cardinal/fuse/healthsense",
     "authenticationType": "xauth",
     "hibernateCache": "ehcache",

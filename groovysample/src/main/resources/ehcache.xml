@@ -17,23 +17,23 @@
             overflowToDisk="false"
             />
 
-    <cache name="com.cardinal.fuse.healthsense.domain.User"
+    <cache name="com.groovy.sample.test.domain.User"
            timeToLiveSeconds="3600">
     </cache>
 
-    <cache name="com.cardinal.fuse.healthsense.domain.Authority"
+    <cache name="com.groovy.sample.test.domain.Authority"
            timeToLiveSeconds="3600">
     </cache>
 
-    <cache name="com.cardinal.fuse.healthsense.domain.User.authorities"
+    <cache name="com.groovy.sample.test.domain.User.authorities"
            timeToLiveSeconds="3600">
     </cache>
 
-    <cache name="com.cardinal.fuse.healthsense.domain.PersistentToken"
+    <cache name="com.groovy.sample.test.domain.PersistentToken"
            timeToLiveSeconds="3600">
     </cache>
 
-    <cache name="com.cardinal.fuse.healthsense.domain.User.persistentTokens"
+    <cache name="com.groovy.sample.test.domain.User.persistentTokens"
            timeToLiveSeconds="3600">
     </cache>
 </ehcache>
