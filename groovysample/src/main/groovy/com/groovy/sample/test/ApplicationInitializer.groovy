@@ -24,7 +24,7 @@ import com.google.common.base.Joiner;
 /**
  * The Class ApplicationInitializer.
  */
-@ComponentScan
+@ComponentScan(basePackages="com.groovy.sample")
 @EnableAutoConfiguration(exclude = [MetricFilterAutoConfiguration.class, MetricRepositoryAutoConfiguration.class])
 class ApplicationInitializer {
 
@@ -45,7 +45,6 @@ class ApplicationInitializer {
 	static main(String[] args) {
 		SpringApplication app = new SpringApplication(ApplicationInitializer.class);
 		app.setShowBanner(false);
-
 		SimpleCommandLinePropertySource source = new SimpleCommandLinePropertySource(args);
 
 		// Check if the selected profile has been set as argument.

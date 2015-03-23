@@ -35,7 +35,7 @@ class UserService {
 	private PasswordEncoder passwordEncoder
 
 	@Inject
-	private UserRepository userRepository
+	protected UserRepository userRepository
 
 	@Inject
 	private AuthorityRepository authorityRepository
