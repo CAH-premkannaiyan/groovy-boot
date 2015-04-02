@@ -20,7 +20,7 @@ import com.groovy.sample.test.config.Constants;
 class LoggingAspect {
 
 	final Logger log = LoggerFactory.getLogger(this.getClass());
-
+	//these annotations are part of Java8 Lamda
 	@Inject
 	Environment env;
 
